@@ -1,0 +1,33 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from http-candidate.Dockerfile
+#1 transferring dockerfile: 604B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/immich-perf:local
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 ...
+
+#5 [1/2] FROM docker.io/library/immich-perf:local
+#5 DONE 0.4s
+
+#4 [internal] load build context
+#4 transferring context: 7.93MB 0.9s done
+#4 DONE 0.9s
+
+#6 [2/2] COPY current-server/dist /usr/src/app/server/dist
+#6 DONE 0.8s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 0.4s done
+#7 writing image sha256:0bb71185d49546fd049b5c6d33d3c08184ba7385bd4d4adb02229580f5689a27
+#7 writing image sha256:0bb71185d49546fd049b5c6d33d3c08184ba7385bd4d4adb02229580f5689a27 done
+#7 naming to docker.io/library/openframe-bench:20261026 done
+#7 DONE 0.5s

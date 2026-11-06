@@ -1,0 +1,16 @@
+
+ RUN  v5.0.4 /workspace/server
+
+(node:24) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓  server:unit  src/services/asset-media.service.spec.ts (135 tests) 4062ms
+   ✓ AssetMediaService (135)
+     ✓ uploadAsset (7)
+       ✓ should handle a file upload 481ms
+       ✓ should handle a duplicate 343ms
+
+ Test Files  1 passed (1)
+      Tests  135 passed (135)
+   Start at  05:38:09
+   Duration  14.29s (import 44%, tests 29%, transform 27%)
+
